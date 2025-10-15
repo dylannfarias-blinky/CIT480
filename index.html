@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MovieMatch | Discover & Compare</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="overlay"></div>
+
+  <header>
+    <h1 class="logo">🎬 <span>MovieMatch</span></h1>
+    <p class="tagline">Find movies by vibe, story, or style — then compare them side-by-side.</p>
+  </header>
+
+  <main>
+    <section class="search-section">
+      <div class="search-box">
+        <input type="text" id="prompt" placeholder="Describe your ideal movie...">
+        <button id="search-btn">🔎 Search</button>
+      </div>
+    </section>
+
+    <section id="results" class="results-grid">
+      <!-- Dynamic movie cards appear here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 MovieMatch • Powered by TMDb API</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
